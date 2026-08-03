@@ -59,7 +59,7 @@ print(name,'is in',place,'age is',age,'years')
 
 
 
-
+'''
 
 #Old style formatting -->%d -->integer, %s-->String, %f-->float
 salary = 24253.256
@@ -73,3 +73,6 @@ print("{} is in {}".format(name,place)) # oder matters
 # fstring usage (more recommended)
 print(f'{name} is in {place}')
 print(f'{"Vaishnavi"} is in {name}')
+'''
+
+
