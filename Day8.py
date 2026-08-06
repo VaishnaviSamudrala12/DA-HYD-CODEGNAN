@@ -98,7 +98,7 @@ for i in name:
 '''
 
 
-'''
+
 #Buit-in-functions-->len(),min(),max(),sorted()
 name="Codeganan"
 print(len(name))
@@ -108,12 +108,13 @@ print(ord('a'))
 print(chr(97))#gives ASCII letter
 print(max(name))
 print(sorted(name))#returns a list by sorting all elements
-'''
+
 
 
 '''
 #Methods on strings-->Case-conversion,Finding/Searching...
 CASE-CONVERSION-->upper(),lower(),title(),capitalize()
+'''
 '''
 name="codEgnan data"
 a=name.upper()#conerts to upper case
@@ -125,7 +126,9 @@ c=name.capitalize()
 print(c)
 d=name.title()
 print(d)
+'''
 #TASK:A-Z
-#USE LOPPS and strings to return A-Z
-
+#USE LOOPS and strings to return A-Z
+for alphabets in range(65,91):
+    print(chr(alphabets),end=" ")
 
